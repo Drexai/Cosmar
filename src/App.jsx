@@ -1,14 +1,12 @@
-import { HomeComponent } from './components/homeComponent'
-
-import {BrowserRouter, Routes, Route} from "react-router-dom"
-
-
+import {HomeComponent} from "./components/homeComponent";
+import './index.css'
 
 function App() {
+  
 
   return (
     <>
-      <HomeComponent/>
+     <HomeComponent/>
     </>
   )
 }
