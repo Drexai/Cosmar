@@ -1,4 +1,6 @@
 import React from "react";
+import { ReactSVG } from "react";
+
 
 
 export const HomeComponent = () => {
@@ -18,8 +20,8 @@ return (
                 </div>    
             </nav>    
         </header>
-        <main class="flex justify-around  w-full min-lg:dvh  px-4  mx-auto  bg-orange-200">
-            <section class=" h-full grid mx-auto gap-x-6 gap-y-12 md:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 ">
+        <main class="flex justify-around  w-full min-[768px]:h-svh  bg-orange-200">
+            <section class=" h-full grid mx-auto gap-x-6 max-sm:gap-y-12  min-[425]:grid-cols-2 md:grid-cols-3 xl:gap-x-8 ">
                 <div class="flex flex-col overflow-hidden bg-gray-100 rounded-2xl h-48 w-48">
                     <h2 class="flex items-center text-xl font-bold leading-7 text-gray-900 group-hover:text-cool-indigo-600">
                         Facturación
@@ -29,6 +31,7 @@ return (
                     <h2 class="flex items-center text-xl font-bold leading-7 text-gray-900 group-hover:text-cool-indigo-600">
                         Stock
                     </h2>
+                    <svg src="C:\Users\Maxim\OneDrive\Escritorio\react\cosmar\src\assets\stock-svgrepo-com.svg"></svg>
                 </div>
                 <div class="flex flex-col overflow-hidden bg-gray-100 rounded-2xl h-48 w-48">
                     <h2 class="flex items-center text-xl font-bold leading-7 text-gray-900 group-hover:text-cool-indigo-600">
