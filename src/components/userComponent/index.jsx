@@ -1,9 +1,5 @@
 import React from "react";
 
-
-
-
-
 export const UserComponent = () => {
 
 return(
@@ -21,20 +17,24 @@ return(
                     </legend>
                     <div>
                         <h2></h2>
-                        < input type="text"/>
-                        <label htmlFor="dataOne"></label>
+                        
+                        <label htmlFor="dataOne"> < input type="text"/></label>
                         
                     </div>
                     <div>
                         <h2>Contraseña</h2>
-                        <input type="password"/>
-                        <label htmlFor="dataTwo"></label>
+                        
+                        <label htmlFor="dataTwo">
+                            <input type="password"/>
+                            </label>
                     </div>
                     
                     <div>
                         <h2>Repetir Contraseña</h2>
+                        
+                        <label htmlFor="dataThree">
                         <input type="password"/> 
-                        <label htmlFor="dataThree"></label>
+                        </label>
                     </div>
                     <div>
                         <h2>Facturación</h2>
