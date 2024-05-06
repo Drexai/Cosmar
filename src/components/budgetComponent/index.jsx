@@ -26,6 +26,9 @@ export const BudgetComponent = () => {
                             <li><label htmlFor="">
                                 </label><input laceholder="empleado" type="text" />
                             </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </form>
                 </nav>
