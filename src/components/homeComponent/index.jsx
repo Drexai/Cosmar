@@ -1,7 +1,4 @@
 import React from "react";
-// import {BudgetComponent} from "components/budgetComponent"
-// import {ClientComponent} from "components/clientsComponent"
-// import {UserComponent} from "components/userComponent"
 import { Link } from 'react-router-dom'
 
 
