@@ -15,15 +15,15 @@ export const ClientComponent = () => {
             </header>
             <main class="relative w-full h-screen  mx-auto  flex flex-row bg-green-200">
                 <section class="flex flex-col w-2/4 ">
-                    <h2 class="w-full">
+                    <h2 class="w-full justify-center">
                         Lista de Clientes
                     </h2>   
-                    <tr class="w-full">
+                    <tr class="w-full flex justify-evenly">
                         <th class="w-1/3">Nombre</th>
                         <th class="w-1/3">CUIT</th>
                         <th class="w-1/3">Código</th>
                     </tr>
-                    <tr>
+                    <tr class="w-full flex justify-evenly py-5">
                         <td>
                             Merce
                         </td>
