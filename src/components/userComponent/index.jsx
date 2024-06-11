@@ -13,7 +13,7 @@ return(
         </header>
         <main class="justify-center min-w-[364px] h-screen w-full  mx-auto bg-white flex flex-row bg-yellow-200">
                 <fieldset class=" h-3/4 w-3/4 2xl:w-2/4 bg-white flex flex-row bg-yellow-200 border-solid border-2 border-indigo-600">
-                    <section class="flex flex-col border-solid border-2 border-indigo-600">
+                    <section class="flex flex-col  border-solid border-2 border-indigo-600">
                         <h2 class="py-9 flex justify-center ">Gestion de usuario</h2>
                         <div>
                             <h2 class="py-5 flex justify-center">Nombre de Usuario</h2>

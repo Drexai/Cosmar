@@ -14,8 +14,8 @@ export const ClientComponent = () => {
                 </input>
             </header>
             <main class="relative w-full h-screen  mx-auto  flex flex-row bg-green-200">
-                <section class="flex flex-col w-2/4 ">
-                    <h2 class="w-full justify-center">
+                <section class="flex flex-col w-2/4  ">
+                    <h2 class="w-full ">
                         Lista de Clientes
                     </h2>   
                     <tr class="w-full flex justify-evenly">
@@ -35,11 +35,11 @@ export const ClientComponent = () => {
                         </td>        
                     </tr>
                 </section>
-                <aside class="flex flex-col w-2/4">
-                    <form>
-                        <fieldset class="flex flex-col space-y-4 ">
+                <aside class="flex flex-col w-2/4 ">
+                    <form class="w-full flex-col flex justify-center ">
+                        <fieldset class="flex flex-col space-y-4 flex justify-center ">
                             <legend> Nuevo Cliente</legend>
-                            <input class="max-[320px]: w-40" type="text" placeholder="Nombre"/>
+                            <input class=" max-[320px]: w-40" type="text" placeholder="Nombre"/>
                             <input class="max-[320px]: w-40" type="number" placeholder="Cuit"/>
                             <input class="max-[320px]: w-40" type="text" placeholder="Tipo contribuyente"/>
                             <input class="max-[320px]: w-40" type="text"placeholder="Alicuota" />
