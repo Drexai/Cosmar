@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-
+// realizar 3 visualizaciones dentro de la de vista 1. Facturación 2. Remito 3. Presupuesto
 
 export const BudgetComponent = () => {
 
