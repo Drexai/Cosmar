@@ -13,9 +13,9 @@ export const ClientComponent = () => {
                 <input class="h-7 rounded-full text-center border-2 border-green-100  "  placeholder="Escriba aquí para buscar...">
                 </input>
             </header>
-            <main class="relative w-full h-screen  mx-auto  flex flex-row bg-green-200">
-                <section class="flex flex-col w-2/4  ">
-                    <h2 class="w-full ">
+            <main class="relative w-full h-screen flex flex-row max-md:flex-col  bg-green-200">
+                <section class="flex flex-col w-3/4  ">
+                    <h2 class="w-full flex justify-center">
                         Lista de Clientes
                     </h2>   
                     <tr class="w-full flex justify-evenly">
@@ -31,12 +31,12 @@ export const ClientComponent = () => {
                             No laburo en su vida
                         </td>
                         <td>
-                            Marron clarito
+                            4204204
                         </td>        
                     </tr>
                 </section>
-                <aside class="flex flex-col w-2/4 ">
-                    <form class="w-full flex-col flex justify-center ">
+                <aside class="flex flex-col w-1/4  max-md:w-full ">
+                    <form class="w-full flex-col flex items-center ">
                         <fieldset class="flex flex-col space-y-4 flex justify-center ">
                             <legend> Nuevo Cliente</legend>
                             <input class=" max-[320px]: w-40" type="text" placeholder="Nombre"/>
