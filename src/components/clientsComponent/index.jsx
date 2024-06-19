@@ -18,20 +18,20 @@ export const ClientComponent = () => {
                     <h2 class="w-full flex justify-center">
                         Lista de Clientes
                     </h2>   
-                    <tr class="w-full flex justify-evenly">
-                        <th class="w-1/3">Nombre</th>
-                        <th class="w-1/3">CUIT</th>
-                        <th class="w-1/3">Código</th>
+                    <tr class="w-full flex justify-evenly py-5">
+                        <th >Nombre</th>
+                        <th >CUIT</th>
+                        <th >Código</th>
                     </tr>
                     <tr class="w-full flex justify-evenly py-5">
-                        <td>
+                        <td class="w-25">
                             Merce
                         </td>
-                        <td>
+                        <td class="w-25">
                             No laburo en su vida
                         </td>
-                        <td>
-                            4204204
+                        <td class="w-25">
+                            42042000000
                         </td>        
                     </tr>
                 </section>
