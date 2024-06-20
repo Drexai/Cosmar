@@ -24,26 +24,29 @@ export const StockComponent = () => {
                 </header>
 
                 <main class="relative w-full h-screen flex flex-row max-md:flex-col  bg-teal-300	">
-                    <aside class=" w-1/4  max-md:w-full ">
-                        <div class="flex flex-col space-evenly bg-yellow-300  rounded-full">
-                            <button>Añadir inventario</button>
-                            <button>Modificar</button>
-                            <button>Eliminar</button>
-                            <button>Historial</button>
+                    <aside class=" w-1/4  max-md:w-full">
+                        <div class="flex flex-col space-evenly rounded bg-stone-500	 ">
+                            <button class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm py-2.5 text-center mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Añadir inventario</button>
+                            <button class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm py-2.5 text-center mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Modificar</button>
+                            <button class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm py-2.5 text-center mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Eliminar</button>
+                            <button class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm py-2.5 text-center mb-1 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Historial</button>
                         </div>    
 
                     </aside>
-                    <section class="flex flex-col w-3/4  ">
+                    <section class="flex flex-col w-3/4 hidden">
+                    
+                    </section>
+                    <section class="flex flex-col w-3/4 max-md:w-full ">
                         <table class="w-full">
-                            <tr class="flex justify-evenly h-10">
-                                <th class="w-10">Nombre</th>
-                                <th class="w-10">Cantidad/Peso</th>
-                                <th class="w-10">Marca</th>
+                            <tr class="flex justify-evenly max-md:space-between h-10">
+                                <th class="w-10 max-md:w-auto">Nombre</th>
+                                <th class="w-10 max-md:w-auto">Cantidad/Peso</th>
+                                <th class="w-10 max-md:w-auto">Marca</th>
                                 <th class="w-10">Precio</th>
                             </tr>
-                            <tr class="flex justify-evenly h-10">
-                                <td>Destornillador</td>
-                                <td>37</td>
+                            <tr class="flex justify-evenly max-md:space-between h-10">
+                                <td class="w-10 max-md:w-auto">Destornillador</td>
+                                <td class="w-10 max-md:w-auto">37</td>
                                 <td>Bahco</td>
                                 <td>6700</td>
                             </tr>
