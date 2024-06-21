@@ -44,6 +44,7 @@ export const StockComponent = () => {
                                 <th class="w-10 max-md:w-auto">Marca</th>
                                 <th class="w-10">Precio</th>
                             </tr>
+        
                             <tr class="flex justify-evenly max-md:space-between h-10">
                                 <td class="w-10 max-md:w-auto">Destornillador</td>
                                 <td class="w-10 max-md:w-auto">37</td>
