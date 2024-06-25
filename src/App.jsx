@@ -3,6 +3,7 @@ import {BudgetComponent} from "./components/budgetComponent"
 import {ClientComponent} from "./components/clientsComponent"
 import {UserComponent} from "./components/userComponent"
 import {StockComponent} from "./components/stockComponent"
+import {RemitComponent} from "./components/remitComponent"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/budget" element={<BudgetComponent/>}/>
         <Route path="/user" element={<UserComponent/>}/>
         <Route path="/stock" element={<StockComponent/>}/>
+        <Route path="/remit" element={<RemitComponent/>}/>
         {/* <Route path="" element={</>}/> */}
     
       </Routes>
