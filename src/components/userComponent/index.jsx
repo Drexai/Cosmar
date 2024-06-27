@@ -11,10 +11,10 @@ return(
                 </Link>
                 <h1 class=" flex justify-center">Accesos</h1>
         </header>
-        <main class="justify-center min-w-[364px] h-screen w-full  mx-auto bg-white flex flex-row bg-yellow-200">
-                <fieldset class=" h-3/4 w-3/4 2xl:w-2/4 bg-white flex flex-row bg-yellow-200 border-solid border-2 border-indigo-600">
-                    <section class="flex flex-col  border-solid border-2 border-indigo-600">
-                        <h2 class="py-9 flex justify-center ">Gestion de usuario</h2>
+        <main class="justify-center min-w-[364px] h-screen w-full  mx-auto bg-white flex flex-row bg-yellow-200 ">
+                <fieldset class=" h-3/4 w-3/4 2xl:w-2/4 bg-white flex flex-row bg-yellow-200 border-solid border-2 border-indigo-600 rounded-lg">
+                    <section class="flex flex-col  border-solid border-2 border-indigo-600 rounded-lg">
+                        <button class="py-9 flex justify-center ">Selecciónar Usuario </button>
                         <div>
                             <h2 class="py-5 flex justify-center">Nombre de Usuario</h2>
                             <label htmlFor="dataOne"> < input type="text"/></label>
@@ -48,26 +48,26 @@ return(
                         </div>
                         <div class=" flex flex-col py-10">
                             <h2 class="flex justify-center">Otros</h2>
-                            <input class="h-5" type="checkbox"/>
+                            <input class="h-5 rounded-lg" type="checkbox"/>
                             <label htmlFor="dataSix"></label>
 
                         </div>
                         <div class="flex flex-col">
                             <h2 class="flex justify-center" >Remito</h2>
-                            <input class="h-5" type="checkbox"/>
+                            <input class="h-5 rounded-lg" type="checkbox"/>
                             <label htmlFor="dataSeven"></label>
                         </div>
                         <div class="flex flex-col">
                             <h2 class="flex justify-center" >Clientes</h2>
-                            <input class="h-5" type="checkbox"/>
+                            <input class="h-5 rounded-lg" type="checkbox"/>
                             <label htmlFor="dataEight"/>
                         </div>
                         <div class="flex flex-col">
                             <h2 class="flex justify-center" >Otros</h2>
-                            <input class="h-5" type="checkbox"/>
+                            <input class="h-5 rounded-lg" type="checkbox"/>
                             <label htmlFor="dataNine"></label>
                         </div>
-                        <button class="col-span-3 h-12 border-solid border-2 border-indigo-600">
+                        <button class="col-span-3 h-12 border-solid rounded-lg border-2 border-indigo-600">
                             <h3>Guardar Cambios</h3>
                         </button>
                     </section>

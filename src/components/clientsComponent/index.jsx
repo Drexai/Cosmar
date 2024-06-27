@@ -14,7 +14,7 @@ export const ClientComponent = () => {
                 </input>
             </header>
             <main class="relative w-full h-screen flex flex-row max-md:flex-col  bg-green-200">
-                <section class="flex flex-col w-3/4  ">
+                <section class="flex flex-col w-3/4 ">
                     <h2 class="w-full flex justify-center">
                         Lista de Clientes
                     </h2>   
