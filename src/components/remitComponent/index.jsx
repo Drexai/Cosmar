@@ -42,27 +42,27 @@ export const RemitComponent = () => {
                                 <label htmlFor=""> IVA 7 <input placeholder="Iva" type="checkbox"/> </label> 
                                 <label htmlFor=""> IVA 8 <input placeholder="Iva" type="checkbox"/> </label>     
                             </div>
-                            <div  class="flex flex-col justify-evenly bg-zinc-500	"  >
+                            <div  class="flex flex-col justify-evenly bg-zinc-500 rounded"  >
                                     <h2>Condiciones de venta:</h2>
-                                <label htmlFor="" class="flex justify-end max-md:flex justify-center">
+                                <label htmlFor="" class="flex justify-end max-md:justify-center">
                                     Contado
                                     <input placeholder="Iva" type="checkbox"/>
                                 </label>
-                                <label htmlFor="" class="flex justify-end max-md:flex justify-center">
+                                <label htmlFor="" class="flex justify-end max-md:justify-center">
                                     Cheque
                                    <input placeholder="Iva" type="checkbox"/>
                                 </label>
-                                <label htmlFor="" class="flex justify-end max-md:flex justify-center">
-                                    Tarjeta de Credito
+                                <label htmlFor="" class="flex justify-end max-md:justify-center">
+                                    Tarj Crédito
                                     <input placeholder="Iva" type="checkbox"/>
                                 </label>
                             </div>
                             <div  class="flex flex-col justify-evenly bg-zinc-500 rounded"  >
-                                <label htmlFor="" class="flex justify-end max-md:flex justify-center">
+                                <label htmlFor="" class="flex justify-end max-md:justify-center">
                                     Reparto
                                     <input placeholder="Iva" type="checkbox"/>
                                 </label>
-                                <label htmlFor="" class="flex justify-end max-md:flex justify-center">
+                                <label htmlFor="" class="flex justify-end max-md:justify-center">
                                     A retirar Personalmente
                                     <input placeholder="Iva" type="checkbox"/>
                                 </label>
